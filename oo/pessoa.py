@@ -16,3 +16,10 @@ if __name__ == '__main__':
     print(max.idade)
     for filho in max.filhos:
         print(filho.nome)
+
+    max.sobrenome = 'Maia'
+    print(max.sobrenome)
+    del max.filhos
+
+    print(max.__dict__)
+    print(marcio.__dict__)
